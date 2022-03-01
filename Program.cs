@@ -66,6 +66,7 @@ namespace Calculadora
 
                 Console.WriteLine("erro");
                 Menu();
+                throw;
             }
         }
         static void Soma()
